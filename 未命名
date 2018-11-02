@@ -1,0 +1,3 @@
+sudo docker build -t 'xy-geoserver' .
+docker run -d -p 9003:8080 -v /samba/anonymous/mzm/apple:/var/local/geoserver --name=geoserver002 xy-geoserver
+
